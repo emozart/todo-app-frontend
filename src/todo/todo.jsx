@@ -23,7 +23,7 @@ export default class Todo extends Component {
     }
 
     handleChange(e){
-        this.setState({...this.state, description: e.target.value })
+        this.setState({description: e.target.value })
     }
 
     render(){
